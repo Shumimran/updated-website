@@ -16,7 +16,7 @@ const Navbar = () => {
         <li className='hover:text-green-600 hover:scale-110'><Link href="/About">About</Link></li>
         <li className='hover:text-green-600 hover:scale-110'><Link href="/contact-us">Contact-us</Link></li>
         <ul className='flex gap-2'>
-          <li className='mr-3 hover:text-green-600 hover:scale-110'><Link href="/Login">Login</Link></li>
+          <li className='mr-3 hover:text-green-600 hover:scale-110'><Link href="/">Login</Link></li>
           <li><button className='bg-green-900 text-center rounded-md text-white font-normal px-2 hover:text-gray-800 hover:bg-slate-200'><Link href="/Button">Register</Link></button></li>
         </ul>
       </ul>
