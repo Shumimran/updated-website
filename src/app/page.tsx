@@ -10,19 +10,19 @@ export default function Home() {
       <div className="mt-20 flex gap-20" >
         <div>    <p className=" text-4xl text-left font-bold text-green-900">Best Place to Buy</p> 
        <p className="text-4xl text-left font-bold">Everything</p>
-       <p className="mt-3 text-gray-600">At Bachira, you can shop for all your favorite beauty brands, clothes, household products <br /> and more at a single place.</p>
-       <button className="bg-green-900 px-2 font-medium text-white  rounded-md text-base mt-7 ml-20 hover:scale-y-125"> Shopping Now</button>
+       <p className="mt-3 text-gray-600 text-base indent-8">At Bachira, you can shop for all your favorite beauty brands, clothes, household products <br /> and more at a single place.</p>
+       <button className="bg-green-900 px-2 py-2 font-medium text-white  rounded-md text-base mt-7 ml-20 hover:scale-y-125"> Shopping Now</button>
        </div>
    
        <div>
         <Image src={pic2}
                 alt="shopping image"
-                width={300}
-                height={300}
+                width={350}
+                height={350}
                 className="absolute rounded-lg"/>
        </div>
       </div>
-       <div className=" mt-10 text-xl text-gray-800 align-middle">
+       <div className=" mt-20 text-xl text-gray-800 align-middle">
         <p className="text-center text-base">We Collaborate With 250++ Leading <br />
         E Commerce and Brands</p>
        </div>
