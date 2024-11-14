@@ -1,26 +1,30 @@
-
+'use client';
 import Link from 'next/link';
 import React from 'react'
+import Image from 'next/image';
+import logo from 'Public/logo1.jpg'
 
 const Navbar = () => {
   return (
-    <div className=' mx-5 pb-5 h-14 bg-gray-100 bg-blend-hard-light  '>
-      <ul className='flex p-2'>
-        <li className='font-bold text-3xl text-gray-800 '>Ba</li>
-        <li className='font-bold text-3xl text-green-900'>chira</li>
-      <ul className='flex justify-center gap-12 p-2 text-xl font-semibold text-gray-800 '>
-        <li className='ml-36 hover:text-green-600 hover:scale-110'><Link href="/">Home</Link></li>
+    <div className='bg-slate-200  h-auto sm:h-12 md:h-16 lg:h-16 flex  sm:flex-row justify-between item-center py-2 px-5  '>
+    
+     <div className=' mb-4 sm:mb-0' >
+        <Image src={logo} alt='logo'
+        height={50}
+        width={120}/></div>
+       <div className='w-full sm:w-auto'>
+
+      <ul className='  flex flex-col sm:flex-row gap-12 justify-between items-center py-3 text-xl  font-semibold text-gray-800 '>
+        
+        <li className='hover:text-green-600 hover:scale-110'><Link href="/">Home</Link></li>
         <li className='hover:text-green-600 hover:scale-110'><Link href="/Products">Products</Link></li>
-        <li className='hover:text-green-600 hover:scale-110'><Link href="/Catagaies">Catagaries</Link></li>
-        <li className='hover:text-green-600 hover:scale-110'><Link href="/Pricing">Prices</Link></li>
         <li className='hover:text-green-600 hover:scale-110'><Link href="/About">About</Link></li>
         <li className='hover:text-green-600 hover:scale-110'><Link href="/contact-us">Contact-us</Link></li>
-        <ul className='flex gap-2'>
-          <li className='mr-3 hover:text-green-600 hover:scale-110'><Link href="/">My Cart</Link></li>
-          <li><button className='bg-green-900 ml-3 text-center rounded-md text-white font-semibold px-3 py-0.5 hover:text-gray-800 hover:bg-slate-200'><Link href="/Button">Register</Link></button></li>
+        <li><button className='bg-green-900 text-center rounded-md text-white font-semibold px-3 py-0.5 hover:text-gray-800 hover:bg-slate-200'><Link href="/Button">My Cart</Link></button></li>
         </ul>
-      </ul>
-      </ul>
+        
+      </div>
+    
     </div>
   )
 }

@@ -27,7 +27,7 @@ export default function Home() {
         E Commerce and Brands</p>
        </div>
        <div>
-        <ul className="flex justify-between mt-20 font-bold text-xl">
+        <ul className="flex justify-between mt-10 mb-10 font-bold text-xl">
           <li className="text-green-500 font-mono font-semibold 3xl">tokopedia</li>
           <li className="text-gray-800 font-mono font-bold 3xl">BELANCIAGA</li>
           <li className="text-gray-900 font-mono font-extrabold 3xl">adidas</li>

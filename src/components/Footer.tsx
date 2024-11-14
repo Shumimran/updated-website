@@ -4,7 +4,7 @@ import logo from 'Public/logo1.jpg'
 const Footer = () => {
   return (
     <div>
-        <div className='flex justify-between mt-20 mx-5 bg-gray-200'>
+        <div className='flex justify-between py-3 px-5 bg-slate-200'>
         <div>
           <ul>
             <li><Image src={logo} alt='logo' width={65} height={65}/></li>

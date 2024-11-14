@@ -10,10 +10,10 @@ const Cards = () => {
   return (
     <div>
  
-      <p className='text-base text-gray-700 mt-20'>
+      <p className='text-base text-gray-700 mt-10 mb-10'>
         Popular Products From <br />All Brands
       </p>
-      <div className='flex  justify-between mt-5 mx-5 p-2'>
+      <div className='flex  justify-between m-10 p-2'>
       <div className='hover:scale-125'>
         <Image src={shoe} alt='nike shoes' width={100} height={100} className='rounded-lg '/>
         Nike shoes</div>
