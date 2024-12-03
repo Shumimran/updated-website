@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import logo from 'public/logo1.jpg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +14,7 @@ const Navbar = () => {
     <div className="bg-slate-200 h-auto sm:h-16 flex flex-col sm:flex-row justify-between items-center py-2 px-5">
       {/* Logo Section */}
       <div className="mb-4 sm:mb-0">
-        <Image src={logo} alt="logo" height={50} width={120} />
+        <Image src={"/logo1.jpg"} alt="logo" height={50} width={120} />
       </div>
 
       {/* Hamburger Menu Icon */}

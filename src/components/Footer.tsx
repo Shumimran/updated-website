@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import logo from 'public/logo1.jpg';
+
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="flex-1">
             <ul>
               <li>
-                <Image src={logo} alt="logo" width={65} height={65} />
+                <Image src={"/logo1.jpg"} alt="logo" width={65} height={65} />
               </li>
               <li>
                 <p className="font-light text-sm mt-2">

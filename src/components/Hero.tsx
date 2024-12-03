@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import pic2 from '../../public/pic2.jpg';
+
 
 const Hero = () => {
   return (
@@ -31,7 +31,7 @@ const Hero = () => {
           {/* Image */}
           <div className="w-full max-w-xs sm:max-w-sm lg:max-w-md">
             <Image
-              src={pic2}
+              src={"/pic2.jpg"}
               alt="shopping image"
               width={400}
               height={400}
