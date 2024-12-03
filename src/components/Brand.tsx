@@ -10,6 +10,10 @@ const marqueeArray = [
   '/07.png',
   '/09.png',
   '/10.png',
+  '/11.png',
+  '/12.png',
+  '/13.png',
+  '/14.png',
 ];
 
 const Brand = () => {
